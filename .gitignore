@@ -1,0 +1,41 @@
+# Build outputs
+Debug/
+Release/
+build/
+*.o
+*.d
+*.elf
+*.bin
+*.hex
+*.map
+*.list
+*.su
+*.cyclo
+*.axf
+
+# STM32CubeIDE / Eclipse local metadata
+*.launch
+*.log
+.metadata/
+
+# Archives and generated packages
+*.zip
+*.rar
+*.7z
+
+# Secrets / local config
+config.h
+secrets.h
+*.env
+.env
+
+# OS files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Large media: use Git LFS or external release hosting
+*.mp4
+*.mov
+*.avi
+
